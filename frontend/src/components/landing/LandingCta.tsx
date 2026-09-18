@@ -36,7 +36,7 @@ export default function LandingCta() {
             href="/login"
             className="inline-flex items-center gap-2 px-7 py-3.5 rounded-[8px] bg-white text-[#003c33] hover:bg-emerald-50 text-xs sm:text-sm font-bold transition shadow-md hover:shadow-lg active:translate-y-[0.5px] cursor-pointer"
           >
-            <span>Launch AYUSHAI Workspace</span>
+            <span>Launch GyanBridge Workspace</span>
             <ArrowRight className="w-4 h-4 text-[#003c33]" />
           </Link>
           <Link

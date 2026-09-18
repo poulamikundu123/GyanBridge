@@ -1,4 +1,4 @@
-# 🌿 AYUSH AI — Skill Intelligence & Academia–Industry Collaboration Platform
+# 🌿 GyanBridge — Skill Intelligence & Academia–Industry Collaboration Platform
 
 > **Traditional Knowledge • Modern Intelligence • Better Tomorrow**  
 > *A unified skill intelligence layer, adaptive clinical assessment engine, role-specific skill gap analyzer, and explainable opportunity matching ecosystem built for the Ministry of Ayush.*
@@ -7,7 +7,7 @@
 
 ## 📌 Executive Summary
 
-**AYUSH AI** bridges the critical gap between traditional AYUSH education (Ayurveda, Yoga & Naturopathy, Unani, Siddha, Sowa-Rigpa, and Homeopathy) and the modern bio-pharmaceutical, healthcare, and research industries. 
+**GyanBridge** bridges the critical gap between traditional AYUSH education (Ayurveda, Yoga & Naturopathy, Unani, Siddha, Sowa-Rigpa, and Homeopathy) and the modern bio-pharmaceutical, healthcare, and research industries. 
 
 By integrating **Google Gemini 2.5 Flash** with authoritative statutory pharmacopoeial standards (*Schedule T, Schedule Y, AYUSH-GCP, CTRI, and the Ayurvedic Pharmacopoeia of India*), the platform provides real-time skill benchmarking, multi-factor job/internship matching with **zero artificial inflation**, adaptive clinical assessments, and institutional analytics across four dedicated user portals.
 
@@ -180,7 +180,7 @@ Visit **`http://localhost:3000`** in your browser.
 
 ### Backend (`backend/.env`)
 ```env
-PROJECT_NAME="AYUSHAI Skill Intelligence API"
+PROJECT_NAME="GyanBridge Skill Intelligence API"
 VERSION="1.0.0"
 API_V1_STR="/api"
 
@@ -210,8 +210,8 @@ For rapid evaluation and demonstration, the platform includes instant one-click 
 
 | Role | Email | Password | Description |
 | :--- | :--- | :--- | :--- |
-| **Student** (Profile A) | `ayush.sharma@ayushai.gov.in` | `Demo@12345` | BAMS Graduate targeting *Clinical Research Associate*. |
-| **Student** (Profile B) | `fresh.student@ayushai.gov.in` | `Demo@12345` | Fresh AYUSH Scholar exploring career roles. |
+| **Student** (Profile A) | `ayush.sharma@gyanbridge.gov.in` | `Demo@12345` | BAMS Graduate targeting *Clinical Research Associate*. |
+| **Student** (Profile B) | `fresh.student@gyanbridge.gov.in` | `Demo@12345` | Fresh AYUSH Scholar exploring career roles. |
 | **Industry** | `recruiter@dabur-research.com` | `Demo@12345` | Dabur R&D Talent Acquisition Lead. |
 | **Faculty** | `faculty.tripathi@aiia.gov.in` | `Demo@12345` | Professor at All India Institute of Ayurveda. |
 | **Institution** | `admin@aiia.gov.in` | `Demo@12345` | AIIA Institutional Placement & Academic Dean. |

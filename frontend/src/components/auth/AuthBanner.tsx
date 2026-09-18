@@ -28,10 +28,10 @@ export default function AuthBanner() {
               fontSize: "1.1rem",
             }}
           >
-            A
+            G
           </div>
           <div>
-            <div className="font-heading font-medium text-base tracking-tight text-white">AYUSHAI</div>
+            <div className="font-heading font-medium text-base tracking-tight text-white">GyanBridge</div>
             <div className="text-[9px] font-mono tracking-widest uppercase text-emerald-300">
               Skill Intelligence Platform
             </div>

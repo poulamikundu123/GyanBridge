@@ -155,7 +155,7 @@ export default function PersonaShowcase() {
             Designed for Every Stakeholder in the AYUSH Ecosystem
           </h2>
           <p className="text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed">
-            Whether you are an aspiring Ayurvedic doctor, a pharmaceutical research director, a professor, or a university dean — AYUSHAI provides custom intelligence tailored to your operational mission.
+            Whether you are an aspiring Ayurvedic doctor, a pharmaceutical research director, a professor, or a university dean — GyanBridge provides custom intelligence tailored to your operational mission.
           </p>
         </div>
 

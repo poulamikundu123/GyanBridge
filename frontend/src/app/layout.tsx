@@ -22,7 +22,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AYUSHAI — Skill Intelligence & Academia–Industry Platform",
+  title: "GyanBridge — Skill Intelligence & Academia–Industry Platform",
   description:
     "Unified Skill Intelligence Layer, Adaptive Assessments, Role-Specific Skill Gaps, and Explainable Opportunity Matching for the AYUSH Ecosystem.",
 };

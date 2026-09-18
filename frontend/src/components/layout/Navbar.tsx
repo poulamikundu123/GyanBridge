@@ -89,7 +89,7 @@ export default function Navbar({ user, onToggleMobileNav, isMobileNavOpen }: Nav
               <div>
                 <div className="flex items-center gap-1.5">
                   <span className="font-heading font-medium text-sm sm:text-base tracking-tight text-slate-950">
-                    AYUSH<span className="text-[#003c33]">AI</span>
+                    Gyan<span className="text-[#003c33]">Bridge</span>
                   </span>
                 </div>
                 <p className="text-[10px] text-slate-500 font-mono tracking-wider uppercase hidden md:block">
@@ -115,7 +115,7 @@ export default function Navbar({ user, onToggleMobileNav, isMobileNavOpen }: Nav
             <button
               onClick={() => setIsSearchOpen(true)}
               className="p-2 rounded-lg text-slate-600 hover:text-slate-900 hover:bg-slate-100 sm:hidden transition cursor-pointer"
-              aria-label="Search or ask AYUSHAI"
+              aria-label="Search or ask GyanBridge"
             >
               <Search className="w-4 h-4" />
             </button>
@@ -124,11 +124,11 @@ export default function Navbar({ user, onToggleMobileNav, isMobileNavOpen }: Nav
             <div
               className="relative w-44 lg:w-48 cursor-pointer hidden sm:block"
               onClick={() => setIsSearchOpen(true)}
-              title="Search or ask AYUSHAI (⌘K)"
+              title="Search or ask GyanBridge (⌘K)"
             >
               <input
                 type="text"
-                placeholder="Ask AYUSHAI..."
+                placeholder="Ask GyanBridge..."
                 readOnly
                 className="w-full h-8 pl-7 pr-12 rounded-[8px] border border-slate-200 bg-slate-50 text-xs text-slate-700 outline-none cursor-pointer hover:border-slate-300 hover:bg-white transition"
               />
@@ -233,7 +233,7 @@ export default function Navbar({ user, onToggleMobileNav, isMobileNavOpen }: Nav
               </svg>
               <input
                 type="text"
-                placeholder="Search navigation or ask AYUSHAI..."
+                placeholder="Search navigation or ask GyanBridge..."
                 autoFocus
                 className="flex-1 border-0 bg-transparent text-xs text-slate-900 outline-none font-medium"
               />

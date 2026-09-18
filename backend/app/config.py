@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "AYUSHAI Skill Intelligence API"
+    PROJECT_NAME: str = "GyanBridge Skill Intelligence API"
     VERSION: str = "1.0.0"
     API_V1_STR: str = "/api"
     

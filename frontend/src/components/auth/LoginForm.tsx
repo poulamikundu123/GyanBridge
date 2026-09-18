@@ -191,7 +191,7 @@ export default function LoginForm({
 
       <div className="pt-2 text-center">
         <p className="text-xs text-slate-500">
-          New to AYUSHAI?{" "}
+          New to GyanBridge?{" "}
           <button
             type="button"
             onClick={onSwitchToRegister}

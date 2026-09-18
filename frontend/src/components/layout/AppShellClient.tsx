@@ -116,16 +116,16 @@ export default function AppShellClient({ children, user }: AppShellClientProps) 
             {children}
           </div>
 
-          {/* Universal Footer - Made by Team HackHer */}
+          {/* Universal Footer - Made by 404Her */}
           <footer className="mt-8 sm:mt-12 pt-5 pb-4 border-t border-slate-200/80 text-center text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
             <div className="flex items-center gap-2 text-slate-600 text-[11px] sm:text-xs">
-              <span className="font-semibold text-slate-800">AYUSHAI</span>
+              <span className="font-semibold text-slate-800">GyanBridge</span>
               <span className="text-slate-300">•</span>
               <span className="truncate">Skill Intelligence & Academia–Industry Platform</span>
             </div>
             <div className="inline-flex items-center gap-1.5 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-white border border-emerald-200/80 shadow-2xs text-[11px] sm:text-xs">
               <span className="text-slate-600">Made with <span className="text-rose-500 font-bold">♥</span> by</span>
-              <span className="font-bold text-emerald-800 tracking-wide">Team HackHer</span>
+              <span className="font-bold text-emerald-800 tracking-wide">404Her</span>
             </div>
           </footer>
         </main>

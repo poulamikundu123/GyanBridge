@@ -27,7 +27,7 @@ async def seed_database(force_reset: bool = False):
                 print("Database already contains core data, verified auxiliary data.")
                 return
 
-        print("Seeding AYUSHAI database with canonical ACADEMICIAN role and domain data...")
+        print("Seeding GyanBridge database with canonical ACADEMICIAN role and domain data...")
 
         # 1. AYUSH Disciplines
         disciplines = [

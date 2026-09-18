@@ -52,11 +52,11 @@ export default function LandingNavbar({ currentUser }: LandingNavbarProps) {
             }}
             className="shadow-xs group-hover:scale-105 transition-transform"
           >
-            A
+            G
           </div>
           <div>
             <div className="font-heading font-semibold text-base text-slate-900 leading-none tracking-tight">
-              AYUSHAI
+              GyanBridge
             </div>
             <div className="text-[9px] font-mono tracking-wider uppercase text-emerald-700 font-semibold mt-0.5">
               Skill Intelligence Platform

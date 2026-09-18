@@ -24,11 +24,11 @@ export default function LandingFooter() {
                   fontSize: "1rem",
                 }}
               >
-                A
+                G
               </div>
               <div>
                 <div className="font-heading font-semibold text-base text-white leading-none">
-                  AYUSHAI
+                  GyanBridge
                 </div>
                 <div className="text-[9px] font-mono tracking-wider uppercase text-emerald-400 font-semibold mt-0.5">
                   Skill Intelligence Platform
@@ -42,7 +42,7 @@ export default function LandingFooter() {
 
             <div className="flex items-center gap-2 text-[11px] text-slate-400 font-mono">
               <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block" />
-              <span>All AYUSHAI Core Services Operational</span>
+              <span>All GyanBridge Core Services Operational</span>
             </div>
           </div>
 
@@ -142,7 +142,7 @@ export default function LandingFooter() {
         {/* Bottom copyright & attribution */}
         <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-slate-500">
           <div>
-            © {new Date().getFullYear()} AYUSHAI Platform. Developed for the National AYUSH Skill & Academia–Industry Initiative.
+            © {new Date().getFullYear()} GyanBridge Platform. Developed for the National AYUSH Skill & Academia–Industry Initiative.
           </div>
           <div className="flex items-center gap-1">
             <span>Architected with modern web design standards</span>

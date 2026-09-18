@@ -248,12 +248,12 @@ export default function Sidebar({ role, onNavigate }: SidebarProps) {
         </p>
       </div>
 
-      {/* Persistent Team HackHer Attribution Badge */}
+      {/* Persistent 404Her Attribution Badge */}
       <div className="px-2.5 pb-2.5 pt-0.5 shrink-0">
         <div className="py-1.5 px-2.5 rounded-lg bg-emerald-50/90 border border-emerald-200/80 text-center flex items-center justify-center gap-1.5 shadow-2xs">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-600 animate-pulse shrink-0" />
           <span className="text-[10.5px] text-emerald-950 font-medium">
-            Made by <strong className="font-bold text-emerald-900">Team HackHer</strong>
+            Made by <strong className="font-bold text-emerald-900">404Her</strong>
           </span>
         </div>
       </div>
