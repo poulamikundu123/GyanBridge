@@ -16,10 +16,10 @@ By integrating **Google Gemini 2.5 Flash** with authoritative statutory pharmaco
 ## 🗺️ System Architecture & Workflow
 
 ### 1. End-to-End System Architecture & Layered Workflow
-![AYUSH AI System Architecture](docs/images/system_architecture.png)
+![GyanBridge System Architecture](docs/images/system_architecture.png)
 
 ### 2. Student Query-to-Response AI Workflow
-![AYUSH AI Workflow Diagram](docs/images/ayush_workflow_diagram.jpg)
+![GyanBridge Workflow Diagram](docs/images/ayush_workflow_diagram.jpg)
 
 ---
 
@@ -108,19 +108,19 @@ The platform includes automated Windows batch scripts for one-click setup, execu
 ### Option A: One-Click Automated Scripts (Recommended)
 
 1. **System Setup & Verification:**
-   Run [`Setup.bat`](file:///c:/Users/kundu/OneDrive/Desktop/AYUSH_AI_Final/Setup.bat) to automatically verify Python & Node.js, create the Python virtual environment, install dependencies, seed the canonical AYUSH database, and run the smoke test suite:
+   Run [`Setup.bat`](Setup.bat) to automatically verify Python & Node.js, create the Python virtual environment, install dependencies, seed the canonical AYUSH database, and run the smoke test suite:
    ```cmd
    Setup.bat
    ```
 
 2. **Start the Entire Application:**
-   Run [`Start.bat`](file:///c:/Users/kundu/OneDrive/Desktop/AYUSH_AI_Final/Start.bat) to free up required ports, launch the FastAPI Backend (`:8000`), launch the Next.js Frontend (`:3000`), and automatically open your default browser:
+   Run [`Start.bat`](Start.bat) to free up required ports, launch the FastAPI Backend (`:8000`), launch the Next.js Frontend (`:3000`), and automatically open your default browser:
    ```cmd
    Start.bat
    ```
 
 3. **Stop All Services:**
-   Run [`Stop.bat`](file:///c:/Users/kundu/OneDrive/Desktop/AYUSH_AI_Final/Stop.bat) anytime to cleanly terminate all background server processes on ports 8000 and 3000:
+   Run [`Stop.bat`](Stop.bat) anytime to cleanly terminate all background server processes on ports 8000 and 3000:
    ```cmd
    Stop.bat
    ```

@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   AYUSH PLATFORM - AUTOMATED SYSTEM SETUP & VERIFICATION
+echo   GYANBRIDGE PLATFORM - AUTOMATED SYSTEM SETUP & VERIFICATION
 echo ============================================================
 echo.
 
@@ -115,7 +115,7 @@ cd ..
 
 echo.
 echo ============================================================
-echo   SUCCESS: SETUP COMPLETED FOR AYUSH PLATFORM!
+echo   SUCCESS: SETUP COMPLETED FOR GYANBRIDGE PLATFORM!
 echo ============================================================
 echo.
 echo   You can now start the entire application by running:

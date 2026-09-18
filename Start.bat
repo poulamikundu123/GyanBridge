@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   STARTING AYUSH ACADEMIA-INDUSTRY COLLABORATION PLATFORM
+echo   STARTING GYANBRIDGE ACADEMIA-INDUSTRY COLLABORATION PLATFORM
 echo ============================================================
 echo.
 
@@ -44,22 +44,22 @@ call "%~dp0Stop.bat" /nopause >nul 2>&1
 
 :: 4. Launch Backend in separate window
 echo [2/4] Launching FastAPI Backend on http://127.0.0.1:8000 ...
-start "AYUSH FastAPI Backend" cmd /k "cd /d ""%~dp0backend"" && title AYUSH FastAPI Backend && "".venv\Scripts\python.exe"" -m uvicorn app.main:app --reload --port 8000 --host 127.0.0.1"
+start "GyanBridge FastAPI Backend" cmd /k "cd /d ""%~dp0backend"" && title GyanBridge FastAPI Backend && "".venv\Scripts\python.exe"" -m uvicorn app.main:app --reload --port 8000 --host 127.0.0.1"
 
 :: 5. Launch Frontend in separate window
 echo [3/4] Launching Next.js Frontend on http://localhost:3000 ...
-start "AYUSH Next.js Frontend" cmd /k "cd /d ""%~dp0frontend"" && title AYUSH Next.js Frontend && npm run dev"
+start "GyanBridge Next.js Frontend" cmd /k "cd /d ""%~dp0frontend"" && title GyanBridge Next.js Frontend && npm run dev"
 
 :: 6. Wait for server readiness and launch browser
 echo [4/4] Waiting for servers to initialize...
 powershell -NoProfile -Command "Start-Sleep -Seconds 4" >nul 2>&1
 
-echo Opening AYUSH Platform in default browser (http://localhost:3000)...
+echo Opening GyanBridge Platform in default browser (http://localhost:3000)...
 start http://localhost:3000
 
 echo.
 echo ============================================================
-echo   AYUSH PLATFORM IS NOW RUNNING!
+echo   GYANBRIDGE PLATFORM IS NOW RUNNING!
 echo ============================================================
 echo.
 echo   Frontend Portal: http://localhost:3000
